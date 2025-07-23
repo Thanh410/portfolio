@@ -3,31 +3,51 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Landing Page BrightUp",
+    description: "A beautiful landing page app using NextJS and TailwindCSS, SEO.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    tags: ["ReactJS", "TailwindCSS", "SEO", "Cursor"],
+    demoUrl: "https://landingpage-bridge.vercel.app/",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Web Cây cảnh",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Covert html,css,js to ReactJS TailwindCSS",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
+    tags: ["TypeScript", "", "ReactJS"],
+    demoUrl: "https://web-cay-canh-chi.vercel.app/",
     githubUrl: "#",
   },
   {
     id: 3,
+    title: "Blog",
+    description:
+      "First project with NextJS, SSR, CSR",
+    image: "/projects/project3.png",
+    tags: ["NextJS", "Node.js", "Stripe"],
+    demoUrl: "https://web-blog-pi.vercel.app/",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+    image: "/projects/project4.png",
+    tags: ["ReactJS"],
+    demoUrl: "https://my-landingpage-neon.vercel.app/",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
+    title: "Choko",
+    description:
+      "",
+    image: "/projects/project5.png",
+    tags: ["React","TypeScript" , "NestJS", "Strapi"],
+    demoUrl: "https://choko.edu.vn/",
     githubUrl: "#",
   },
 ];
